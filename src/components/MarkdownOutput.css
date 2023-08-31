@@ -1,0 +1,51 @@
+.react-markdown-components > * {
+  @apply text-base mb-2;
+}
+
+.react-markdown-components h1 {
+  @apply text-5xl font-bold;
+}
+
+.react-markdown-components h2 {
+  @apply text-4xl font-bold;
+}
+
+.react-markdown-components h3 {
+  @apply text-3xl font-semibold;
+}
+
+.react-markdown-components h4 {
+  @apply text-2xl font-semibold;
+}
+
+.react-markdown-components h5 {
+  @apply text-xl font-medium;
+}
+
+.react-markdown-components h6 {
+  @apply text-lg font-medium;
+}
+
+.react-markdown-components a {
+  @apply text-sky-500 underline visited:text-sky-700;
+}
+
+.react-markdown-components blockquote {
+  @apply border-l-4 border-zinc-600 pl-2;
+}
+
+.react-markdown-components pre {
+  @apply border rounded border-zinc-600 bg-zinc-700 px-1;
+}
+
+.react-markdown-components p > code {
+  @apply border rounded border-zinc-600 bg-zinc-700 px-1;
+}
+
+.react-markdown-components ul {
+  @apply list-disc list-inside;
+}
+
+.react-markdown-components ol {
+  @apply list-decimal list-inside;
+}
