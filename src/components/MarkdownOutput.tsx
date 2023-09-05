@@ -8,7 +8,7 @@ interface MarkdownOutputProps {
 const MarkdownOutput: FC<MarkdownOutputProps> = ({ markdown }) => {
   return (
     <div className="h-full flex flex-col overflow-hidden bg-zinc-800">
-      <div className="h-full overflow-auto p-2 break-normal">
+      <div className="h-full min-w-min overflow-auto p-2">
         <Markdown>{markdown}</Markdown>
       </div>
       <hr className="border-2 border-zinc-900" />

@@ -28,7 +28,7 @@ const App = () => {
           <MarkdownGuide />
         </div>
       </Modal>
-      <div className="flex-auto columns-2 gap-2 overflow-hidden">
+      <div className="flex-auto grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 gap-2 overflow-hidden">
         <MarkdownInput value={markdown} onChange={setMarkdown} />
         <MarkdownOutput markdown={markdown} />
       </div>
