@@ -20,6 +20,7 @@ const MarkdownInput: FC<MarkdownInputProps> = ({ onChange, value }) => {
         onChange={onTextareaChange}
         placeholder="Edit Markdown here."
         value={value}
+        wrap="off"
       />
       <hr className="border-2 border-zinc-900" />
       <p className="p-2 text-base text-center">Markdown</p>
